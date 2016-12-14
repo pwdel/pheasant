@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Stylish Portfolio - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Include Font Awesome. -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Include Editor style. -->
+    <link href="../css/froala_editor.min.css" rel="stylesheet" type="text/css" />
+    <link href="../css/froala_style.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Include Code Mirror style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.3.0/codemirror.min.css">
+
+    <!-- Include Editor Plugins style. -->
+    <link rel="stylesheet" href="../css/plugins/char_counter.css">
+    <link rel="stylesheet" href="../css/plugins/code_view.css">
+    <link rel="stylesheet" href="../css/plugins/colors.css">
+    <link rel="stylesheet" href="../css/plugins/emoticons.css">
+    <link rel="stylesheet" href="../css/plugins/file.css">
+    <link rel="stylesheet" href="../css/plugins/fullscreen.css">
+    <link rel="stylesheet" href="../css/plugins/image.css">
+    <link rel="stylesheet" href="../css/plugins/image_manager.css">
+    <link rel="stylesheet" href="../css/plugins/line_breaker.css">
+    <link rel="stylesheet" href="../css/plugins/quick_insert.css">
+    <link rel="stylesheet" href="../css/plugins/table.css">
+    <link rel="stylesheet" href="../css/plugins/video.css">
+
+</head>
+
+<body>
+
+
+    <!-- Include Language file if we want to use it. -->
+    <script type="text/javascript" src="../js/languages/ro.js"></script>
+
+    <!-- Initialize the editor. -->
+    <script>
+        $(function() {
+            $('#edit').froalaEditor()
+        });
+    </script>
+
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Pheasant.Club</a>
+            </li>
+            <li>
+                <a href="#top" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="#about" onclick=$("#menu-close").click();>Signup</a>
+            </li>
+            <li>
+                <a href="#services" onclick=$("#menu-close").click();>Video</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick=$("#menu-close").click();>Logistics</a>
+            </li>
+            <li>
+                <a href="#contact" onclick=$("#menu-close").click();>Map</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+          <div class="space"></div>
+            <h1>Pheasant Club</h1>
+            <h3>Pheasant Hunt, December 26th, 2016</h3>
+            <p>Willow River, WI</p>
+            <br>
+            <a href="#about" class="btn btn-dark btn-lg">Sign Up</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Pay By Paypal to Signup</h2>
+                    <br>
+                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick">
+                      <input type="hidden" name="hosted_button_id" value="W5LRK9FNA4JT6">
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                      <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>2015 Video</h2>
+                    <hr class="small">
+                    <iframe src="https://player.vimeo.com/video/150495297" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Logistics</h2>
+                    <hr class="small">
+                    <!-- /.row (nested) -->
+
+                    <div class="container">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Time</th>
+                            <th>Event</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>7:00AM-7:30AM</td>
+                            <td>Morning Coffee / Pre-Meeting at <a href="https://www.google.com/maps/place/Caribou+Coffee/@44.9613445,-92.7270939,17z/data=!4m12!1m6!3m5!1s0x0:0x74b77f1951ebb511!2sCaribou+Coffee!8m2!3d44.9613135!4d-92.7247193!3m4!1s0x0:0x74b77f1951ebb511!8m2!3d44.9613135!4d-92.7247193" class="btn btn-dark btn-lg">Caribou Coffee Hudson, WI</a></td>
+                          </tr>
+                          <tr>
+                            <td>8:00AM-8:30AM</td>
+                            <td>Arrive at Facility in Willow River, WI</td>
+                          </tr>
+                          <tr>
+                            <td>8:30AM-9:00AM</td>
+                            <td>Quick Sporting Clays Session</td>
+                          </tr>
+                          <tr>
+                            <td>9:00AM-Noon</td>
+                            <td>First Hunting Session</td>
+                          </tr>
+                          <tr>
+                            <td>Noon-12:30PM</td>
+                            <td>Lunch</td>
+                          </tr>
+                          <tr>
+                            <td>12:30PM-4:30PM</td>
+                            <td>Second Hunting Session</td>
+                          </tr>
+                          <tr>
+                            <td>4:30PM-5:30PM</td>
+                            <td>Clean Pheasants & Leave</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Gun Safety Rules</h2>
+                    <hr class="small">
+                    <a href="https://gunsafetyrules.nra.org/" class="btn btn-dark btn-lg">NRA Gun Safety Rules</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Map -->
+    <section id="contact" class="map">
+        <!-- <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNG7dJVyYpqEUyHc-Hu1l4oL8SPtHTRuA&?pb=!1m18!1m12!1m3!1d11278.845822518211!2d-92.63287550376879!3d45.0307826199596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7fe4b4859082a880!2sGame+Unlimited+Hunting+Club!5e0!3m2!1sen!2sus!4v1481737100954"></iframe>
+        -->
+
+        <iframe
+          width="100%"
+          height="100%"
+          frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBy_Is6j6c8PxNZfSOKS3LwipHcSItpXKY&q=Game+Unlimited+Hunting+Club&zoom=18&maptype=satellite">
+        </iframe>
+
+
+        <br />
+        <small>
+            <a href="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNG7dJVyYpqEUyHc-Hu1l4oL8SPtHTRuA&?pb=!1m18!1m12!1m3!1d11278.845822518211!2d-92.63287550376879!3d45.0307826199596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7fe4b4859082a880!2sGame+Unlimited+Hunting+Club!5e0!3m2!1sen!2sus!4v1481737100954" allowfullscreen></a>
+        </small>
+        </iframe>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Hunt Location:</strong>
+                    </h4>
+                    <p>871 County Rd E
+                        <br>Hudson, WI 54016</p>
+                    <br>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Pheasant Club 2016</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>
